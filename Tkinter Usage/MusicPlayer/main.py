@@ -1,4 +1,4 @@
-import pygame
+import pygame #check
 from pygame import mixer
 from tkinter import *
 import os
