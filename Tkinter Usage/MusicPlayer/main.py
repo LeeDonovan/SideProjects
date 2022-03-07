@@ -28,7 +28,7 @@ songstatus.set("choosing")
 #playlist---------------
 playlist=Listbox(root,selectmode=SINGLE,bg="Black",fg="Green",font=('Times',15),width=40)
 playlist.grid(columnspan=5)
-os.chdir(r'C:\Users\donald\Desktop\Music')#try asking for user input for folder location
+os.chdir(r'C:\Users\..\Music')#try asking for user input for folder location
 songs=os.listdir()
 for s in songs:
     playlist.insert(END,s)
